@@ -2,6 +2,7 @@
 Basic converter of an LMMS project file into a MIDI file format
 
 1. Introduction
+
   This is a very basic converter that copies every LMMS track into a corresponding MIDI track.
   It has only basic functionality - it doesn't convert automation tracks or effects, 
   and it doesn't map instruments.
@@ -11,10 +12,12 @@ Basic converter of an LMMS project file into a MIDI file format
   Everyone interested in contribution is more than welcome. 
   
 2. System requirements:
+
   - Python 2.6 or higher
   - midiutil python library (https://github.com/duggan/midiutil)
 
 3. Usage
+
   python lmms2midi.py input.mmp output.mid
 
 
