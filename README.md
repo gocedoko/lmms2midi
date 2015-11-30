@@ -10,5 +10,6 @@ Usage:
   python lmms2midi.py input.mmp output.mid
 
 
-  
-  
+Please note: This converter works with uncompressed LMMS project files only. 
+
+So you first need to save the project with the .mmp extension - add it manually to the filename in the Save Project dialog.
