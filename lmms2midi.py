@@ -16,7 +16,7 @@ if len(sys.argv) > 2:
 	trackCnt=0
 
 	for t in inFile.getElementsByTagName('track'):
-		if t.getElementsByTagName('midiport') != []:
+		if t.getElementsByTagName('midiport'):
 			channel = int(t.getElementsByTagName('midiport')[0].attributes['outputchannel'].value)
 
 			midiData.addTrackName(trackCnt, channel, str(t.attributes['name'].value))
